@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cuaca</string>
+    <string name="cuaca">Cuaca</string>
+    <string name="hujan">Hujan</string>
+</resources>
