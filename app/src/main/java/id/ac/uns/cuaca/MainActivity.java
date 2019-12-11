@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public void getDataCuaca(View view){
         String namaKota = editTextNamaKota.getText().toString();
 
-        Call<JsonObject> jsonObjectCall = apiInterface.getWeather(namaKota, "e61667a68c5d9cf67110428205059c02");
+        Call<JsonObject> jsonObjectCall = apiInterface.getWeather(namaKota, "[ganti dengan appKey yang anda punya, register di openweather]");
         jsonObjectCall.enqueue(new Callback<JsonObject>() {
             @Override
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
